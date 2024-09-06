@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+
+
+.body{
+  background-color: #F0F2F5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logout{
+  position: relative;
+  bottom: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.dash-textimonials{
   display: flex;
-  flex-direction: column;
+}
+.dash-textimonials *{
+  margin: 2%;
+}
+
+.dash-textimonials b, p{
+  color: gray;
+}
+
+.pie-card button{
+  
+  height: 1%;
+  position: relative;
+  float: right;
+  bottom: 0;
+  padding: 3%;
+  font-size: small;
+  font-weight: bold;
+  border: none;
+  background-color: rgb(220, 220, 220);
+  color: gray;
+  border-radius: 5%;
+}
+
+.icon{
+  float: right;
+  color: gray;
+}
+
+.content{
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.pie-line{
+  display: flex;
+  margin: 2%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bar-data{
+  display: flex;
+  margin: 2%;
+}
+
+.table-row tr td{
+  padding: 10px;
+}
+
+small{
+  font-weight: bold;
+  color: gray;
+}
+
+.top-sales{
+  margin: 2%;
+}
+
+.top-sales img{
+  width: 10%;
+  border-radius: 50%;
+  margin-right: 2%;
+}
+
+.top-sales-heads{
+  font-size: 11px;
+  font-weight: bold;
+  color: gray;
+}
+
+.top-sales tr td{
+  padding: 2%;
+}
+
+.top-sales div{
+  align-items: center;
+}
+
+.top-sales div p{
+margin: 0%;
+}
+
+.uparrow{
+  padding: 3%;
+  color: green;
+}
+
+.downarrow{
+  padding: 3%;
+  color: red;
 }
