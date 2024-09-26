@@ -24,12 +24,13 @@ import ContactSupportIcon from '@mui/icons-material/ContactSupport';
 import { Link } from 'react-router-dom';
 import LogoutIcon from '@mui/icons-material/Logout';
 // import Home from './Home';
+import { LuSearch } from "react-icons/lu";
 
 export default function ColorInversionNavigation() {
   const [color] = React.useState('neutral');
   return (
     <div >
-      <Box sx={{ display: 'flex', overflow: 'auto' , width: '100%', margin:'1%', position:'fixed'}} >
+      <Box sx={{ display: 'flex', overflow: 'auto' , width: '25.5%', margin:'1%', position:'fixed'}} >
       <Sheet
         variant="solid"
         invertedColors
@@ -37,6 +38,7 @@ export default function ColorInversionNavigation() {
           height:'94vh',
           borderRadius:'20px 0 0 20px',
           p: 2,
+          // backgroundColor:'#010F17',
           ...(color !== 'neutral' && {
             bgcolor: `${color}.700`,
           }),
@@ -51,28 +53,32 @@ export default function ColorInversionNavigation() {
             minWidth: 200,
           }}
         >
-          <Link to='/home'><ListItemButton>
+          <div className='searchbar'>
+            <LuSearch className="searchicon"/>
+            <input type="search" />
+          </div>
+          <Link to='/home' className="navbtn"><ListItemButton>
             <ListItemDecorator>
             <SpaceDashboardIcon />
             </ListItemDecorator>
              Dashboard
           </ListItemButton></Link>
           
-          <Link to='/about'><ListItemButton>
+          <Link to='/about' className="navbtn"><ListItemButton>
             <ListItemDecorator>
             <InfoIcon />
             </ListItemDecorator>
             About
           </ListItemButton></Link>
           
-          <Link to='/services'><ListItemButton>
+          <Link to='/services' className="navbtn"><ListItemButton>
             <ListItemDecorator>
             <SettingsSuggestIcon />
             </ListItemDecorator>
             Services
           </ListItemButton></Link>
           
-          <Link to='/contact'><ListItemButton>
+          <Link to='/contact' className="navbtn"><ListItemButton>
             <ListItemDecorator>
             <ContactSupportIcon />
             </ListItemDecorator>
@@ -96,7 +102,7 @@ export default function ColorInversionNavigation() {
         <Card
           variant="soft"
           orientation="horizontal"
-          sx={{ mt: 2, display: 'flex', alignItems: 'center', borderRadius: 'sm' }}
+          sx={{ mt: 2, display: 'flex', alignItems: 'center'}}
         >
           <CircularProgress value={80} determinate thickness={8} size="lg">
             80%
@@ -158,7 +164,7 @@ export default function ColorInversionNavigation() {
           </IconButton>
         </Tooltip>
         
-        <Link to='/login'><ListItemButton className='logout'>
+        <Link to='/login' className="navbtn"><ListItemButton className='logout'>
           <ListItemDecorator>
             <LogoutIcon/>
           </ListItemDecorator>
