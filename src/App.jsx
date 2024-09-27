@@ -2,7 +2,7 @@
 // import { Home } from '@mui/icons-material';
 // import { Dashboard } from '@mui/icons-material';
 import './App.css';
-import { HashRouter as Router , Routes , Route } from 'react-router-dom';
+import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
 // import UncontrolledExample from './Components/Home';
 import Signup from './Components/Signup';
 import Login from './Components/Login';
@@ -19,7 +19,7 @@ function App() {
       {/* <div className='navbar'>
         <img src='https://img.freepik.com/free-vector/black-white-skull-headphones-vector-illustration-vintage-dead-head-professional-gamer_74855-10582.jpg?ga=GA1.1.1106714725.1721128988&semt=ais_hybrid' style={{width:'6%'}}/>
       </div> */}
-      <HashRouter>
+      <Router>
         <Routes>
           <Route path='/' element={<Login />}></Route>
           <Route path='/signup' element={<Signup />}></Route>
@@ -29,7 +29,7 @@ function App() {
           <Route path='/services' element={<Services />}></Route>
           <Route path='/contact' element={<Contact />}></Route>
         </Routes>
-      </HashRouter>
+      </Router>
     </div>
   );
 }
