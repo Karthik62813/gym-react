@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/gym-react/static/css/main.7324998f.css",
-    "main.js": "/gym-react/static/js/main.64ebe1c9.js",
-    "static/js/453.159d8a3d.chunk.js": "/gym-react/static/js/453.159d8a3d.chunk.js",
-    "index.html": "/gym-react/index.html",
-    "main.7324998f.css.map": "/gym-react/static/css/main.7324998f.css.map",
-    "main.64ebe1c9.js.map": "/gym-react/static/js/main.64ebe1c9.js.map",
-    "453.159d8a3d.chunk.js.map": "/gym-react/static/js/453.159d8a3d.chunk.js.map"
+    "main.css": "/gym-react%20/static/css/main.7324998f.css",
+    "main.js": "/gym-react%20/static/js/main.4859e568.js",
+    "static/js/453.159d8a3d.chunk.js": "/gym-react%20/static/js/453.159d8a3d.chunk.js",
+    "index.html": "/gym-react%20/index.html",
+    "main.7324998f.css.map": "/gym-react%20/static/css/main.7324998f.css.map",
+    "main.4859e568.js.map": "/gym-react%20/static/js/main.4859e568.js.map",
+    "453.159d8a3d.chunk.js.map": "/gym-react%20/static/js/453.159d8a3d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7324998f.css",
-    "static/js/main.64ebe1c9.js"
+    "static/js/main.4859e568.js"
   ]
 }
