@@ -38,7 +38,7 @@ export default function ColorInversionNavigation() {
           height:'94vh',
           borderRadius:'20px 0 0 20px',
           p: 2,
-          // backgroundColor:'#010F17',
+          backgroundColor: '#373A40',
           ...(color !== 'neutral' && {
             bgcolor: `${color}.700`,
           }),

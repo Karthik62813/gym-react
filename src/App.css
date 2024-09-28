@@ -2,9 +2,9 @@
   position: relative;
   bottom: 0;
 }
-
+ /* LOGIN PAGE  */
 .login-body{
-  background: linear-gradient(to top, #000000, #222);
+  background: linear-gradient(to top, #111, #222);
   /* background-color: black; */
   width: 100%;
   height: 100vh;
@@ -16,7 +16,7 @@
 
 .login{
   text-align: center;
-  background-color: #121212;
+  background-color: #373A40;
   width: 20%;
   padding: 2%;
   border-radius: 5%;
@@ -60,9 +60,11 @@
   border: 1px solid #fff;
 }
 
-.home{
-  background: #000;
+.app {
+  background-color: black;
 }
+
+/* HOME PAGE  */
 
 .searchbar{
   width: 100%;
@@ -70,14 +72,6 @@
 
 .navbtn{
   text-decoration: none;
-}
-
-.navbar{
-  width: 100%;
-  height: 80px;
-  border: 1px solid black;
-  position: fixed;
-  top: 0;
 }
 
 .dash-textimonials{
@@ -90,7 +84,11 @@
   margin-bottom: 0;
 }
 
-.dash-textimonials b, p{
+.dash-textimonials h5, p{
+  color: rgb(201, 201, 201);
+}
+
+.side-heads{
   color: gray;
 }
 
@@ -103,9 +101,9 @@
   padding: 3%;
   font-size: small;
   font-weight: bold;
-  border: none;
+  border: 2px solid black;
   background-color: rgb(220, 220, 220);
-  color: gray;
+  color: rgb(66, 66, 66);
   border-radius: 5%;
 }
 
@@ -133,11 +131,12 @@
 
 .table-row tr td{
   padding: 10px;
+  color: gray;
 }
 
 small{
   font-weight: bold;
-  color: gray;
+  color: rgb(201, 201, 201);
 }
 
 .top-sales{
@@ -167,7 +166,8 @@ small{
 }
 
 .top-sales div p{
-margin: 0%;
+  margin: 0%;
+  color: gray;
 }
 
 .uparrow{
@@ -178,4 +178,37 @@ margin: 0%;
 .downarrow{
   padding: 3%;
   color: red;
+}
+
+.top-sales table b{
+  color: rgb(201, 201, 201);
+}
+
+/* ABOUT PAGE  */
+
+.abt-body{
+  margin: 3%;
+}
+
+.abt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.abt-body img{
+  width: 40%;
+  height: 350px;
+  padding: 5%;
+}
+
+.abt-txt{
+  width: 45%;
+  padding: 5%;
+}
+
+.abt-heading{
+  font-weight: bolder;
+  color: whitesmoke;
+  text-align: center;
 }
