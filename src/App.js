@@ -21,6 +21,7 @@ function App() {
       </div> */}
       <Router>
         <Routes>
+          <Route path='/gym-react' element={<Login />}></Route>
           <Route path='/' element={<Login />}></Route>
           <Route path='/signup' element={<Signup />}></Route>
           <Route path='/login' element={<Login />}></Route>
