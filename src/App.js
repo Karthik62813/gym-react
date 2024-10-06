@@ -12,6 +12,8 @@ import About from './Components/About';
 import Services from './Components/Services';
 import Contact from './Components/Contact';
 import { Row,Col } from 'react-bootstrap';
+import Accessories from './Components/Accessories';
+import Sports from './Components/Sports';
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
           <Route path='/about' element={<About />}></Route>
           <Route path='/services' element={<Services />}></Route>
           <Route path='/contact' element={<Contact />}></Route>
+          <Route path='/accessories' element={<Accessories />}></Route>
+          <Route path='/sports' element={<Sports />}></Route>
         </Routes>
       </Router>
     </div>

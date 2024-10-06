@@ -23,6 +23,7 @@ import SettingsSuggestIcon from '@mui/icons-material/SettingsSuggest';
 import ContactSupportIcon from '@mui/icons-material/ContactSupport';
 import { Link } from 'react-router-dom';
 import LogoutIcon from '@mui/icons-material/Logout';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 // import Home from './Home';
 import { LuSearch } from "react-icons/lu";
 
@@ -53,10 +54,11 @@ export default function ColorInversionNavigation() {
             minWidth: 200,
           }}
         >
-          <div className='searchbar'>
+          {/* <div className='searchbar'>
             <LuSearch className="searchicon"/>
             <input type="search" />
-          </div>
+          </div> */}
+          <p style={{color: "green", fontSize: "30px", fontWeight: "bold"}}>BreatheFit</p>
           <Link to='/home' className="navbtn"><ListItemButton>
             <ListItemDecorator>
             <SpaceDashboardIcon />
@@ -73,9 +75,9 @@ export default function ColorInversionNavigation() {
           
           <Link to='/services' className="navbtn"><ListItemButton>
             <ListItemDecorator>
-            <SettingsSuggestIcon />
+            <ShoppingCartIcon />
             </ListItemDecorator>
-            Services
+            Products
           </ListItemButton></Link>
           
           <Link to='/contact' className="navbtn"><ListItemButton>

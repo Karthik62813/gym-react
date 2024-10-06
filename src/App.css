@@ -186,7 +186,7 @@ small{
 
 /* ABOUT PAGE  */
 
-.abt-body{
+.body{
   margin: 3%;
 }
 
@@ -196,7 +196,7 @@ small{
   align-items: center;
 }
 
-.abt-body img{
+.abt img{
   width: 40%;
   height: 350px;
   padding: 5%;
@@ -207,8 +207,97 @@ small{
   padding: 5%;
 }
 
-.abt-heading{
+.heading{
   font-weight: bolder;
   color: whitesmoke;
   text-align: center;
+}
+
+.products{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.items{
+  width: 130%;
+  text-align: center;
+}
+
+.products a{
+  width: 100%;
+  margin: 10%;
+  text-decoration: none;
+  margin-right: 10%;
+}
+
+.items img{
+  width: 99%;
+  height: 56.5vh;
+  border-radius: 8px;
+}
+
+.items p{
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.card-body{
+  background-color: #373A40;
+  border-radius: 0 0 5px 5px;
+}
+
+.card-body *{ 
+  padding: 0%;
+  margin: 0%;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* contact page */
+.form-group{
+  width: 80%;
+  padding:1%;
+  border:2px solid #373A40;
+  border-radius: 5px;
+  margin:1%;
+  margin-bottom: 5%;
+}
+
+.form-group>label{
+  text-align: center;
+  position:relative;
+  top:-4vh;
+  left:2%;
+  background-color:black;
+  color: green;
+  z-index: 1;
+}
+
+.form-group>input{
+  border:none;
+  background-color: #373A40;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-btn{
+  font-weight: bold;
+  background-color: #1ED760;
+  width: 80%;
+  border-radius: 8px;
+  border: 1px solid rgb(0, 0, 0);
+  color: #000;
+  font-size: large;
 }

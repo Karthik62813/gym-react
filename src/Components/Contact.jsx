@@ -10,7 +10,32 @@ function Contact() {
         <ColorInversionNavigation/>
       </Col>
       <Col sm={9}>
-        <h1>Contact page</h1>
+        <div className='body'>
+          <h2 className='heading'>Contact Us...</h2>
+          <form className='contact'>
+              <div class="form-group">
+                  <label style={{ width:"12%" }}>First name</label>
+                  <input type="text" class="form-control input-lg" />
+              </div>
+              <div class="form-group">
+                  <label style={{ width:"16%" }}>Second name</label>
+                  <input type="text" class="form-control input-lg" />
+              </div>
+              <div class="form-group">
+                  <label style={{ width:"10%" }}>Email</label>
+                  <input type="email" class="form-control input-lg" />
+              </div>
+              <div class="form-group">
+                  <label style={{ width:"18%" }}>Phone Number</label>
+                  <input type="number" class="form-control input-lg" />
+              </div>
+              <div class="form-group" style={{ marginBottom: "3%"}}>
+                  <label style={{ width:"22%" }}>Enter Your Message</label>
+                  <input style={{ height:"20vh" }} type="text" class="form-control input-lg" />
+              </div>
+              <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
       </Col>
     </Row>
   )
