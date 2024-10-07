@@ -2,8 +2,15 @@ import React from 'react'
 import { Row } from 'react-bootstrap'
 import Col from 'react-bootstrap/Col'
 import ColorInversionNavigation from './Header'
+import { useEffect } from 'react';
 
 function Contact() {
+    
+  useEffect(() => {
+    // Scroll to the top of the page when the component loads
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <Row>
       <Col sm={3}>

@@ -73,7 +73,7 @@ export default function ColorInversionNavigation() {
             About
           </ListItemButton></Link>
           
-          <Link to='/services' className="navbtn"><ListItemButton>
+          <Link to='/products' className="navbtn"><ListItemButton>
             <ListItemDecorator>
             <ShoppingCartIcon />
             </ListItemDecorator>

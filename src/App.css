@@ -213,28 +213,32 @@ small{
   text-align: center;
 }
 
-.products{
+.products, .info-body{
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.items{
-  width: 130%;
-  text-align: center;
-}
-
-.products a{
-  width: 100%;
-  margin: 10%;
-  text-decoration: none;
-  margin-right: 10%;
 }
 
 .items img{
   width: 99%;
   height: 56.5vh;
   border-radius: 8px;
+  filter: grayscale(100%);
+}
+
+.items img:hover{
+  filter: grayscale(10%);
+  transition: 600ms ease-in-out;
+}
+
+.products a{
+  width: 30%;
+  text-decoration: none;
+  margin: 5%;
+}
+
+.items{
+  text-align: center;
 }
 
 .items p{
@@ -300,4 +304,18 @@ small{
   border: 1px solid rgb(0, 0, 0);
   color: #000;
   font-size: large;
+}
+
+.star{
+  color: green
+}
+
+.previous{
+  color: whitesmoke;
+  margin: 3%;
+  font-weight: bolder;
+}
+
+.info-body{
+  flex-direction: column;
 }

@@ -9,11 +9,13 @@ import Login from './Components/Login';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Components/Home';
 import About from './Components/About';
-import Services from './Components/Services';
 import Contact from './Components/Contact';
 import { Row,Col } from 'react-bootstrap';
 import Accessories from './Components/Accessories';
 import Sports from './Components/Sports';
+import Products from './Components/Products';
+import Iteminfo from './Components/Iteminfo';
+import Sportinfo from './Components/Sportinfo';
 
 function App() {
   return (
@@ -29,10 +31,15 @@ function App() {
           <Route path='/login' element={<Login />}></Route>
           <Route path='/home' element={<Home />}></Route>
           <Route path='/about' element={<About />}></Route>
-          <Route path='/services' element={<Services />}></Route>
+          <Route path='/products' element={<Products />}></Route>
+          <Route path='/toproducts' element={<Products />}></Route>
           <Route path='/contact' element={<Contact />}></Route>
           <Route path='/accessories' element={<Accessories />}></Route>
+          <Route path='/toAccessories' element={<Accessories />}></Route>
           <Route path='/sports' element={<Sports />}></Route>
+          <Route path='/toSports' element={<Sports />}></Route>
+          <Route path='/accinfo/:id' element={<Iteminfo />}></Route>
+          <Route path='/sportinfo/:id' element={<Sportinfo />}></Route>
         </Routes>
       </Router>
     </div>

@@ -7,8 +7,8 @@ import { useParams } from 'react-router-dom';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import { Link } from 'react-router-dom';
 
-function Iteminfo() {
-    
+function Sportinfo() {
+      
   useEffect(() => {
     // Scroll to the top of the page when the component loads
     window.scrollTo(0, 0);
@@ -36,7 +36,7 @@ function Iteminfo() {
         <ColorInversionNavigation />
       </Col>
       <Col sm={9}>
-        <Link to='/toAccessories'><ArrowBackIcon className='previous' style={{margin: '2% 0 0 11%'}}/></Link>
+        <Link to='/toSports'><ArrowBackIcon className='previous' style={{margin: '2% 0 0 11%'}}/></Link>
         <div className='body info-body'>
           {itemInfo ? (
             <Card style={{ width: '80%', height: '150vh', border: 'none', margin: '1%' }}>
@@ -64,4 +64,4 @@ function Iteminfo() {
   );
 }
 
-export default Iteminfo;
+export default Sportinfo

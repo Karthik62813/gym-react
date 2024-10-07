@@ -9,8 +9,15 @@ import BiaxialLineChart from '../utils/linegraph';
 import CustomLabels from '../utils/bargraph'
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import { useEffect } from 'react';
 
 function Home() {
+
+  useEffect(() => {
+    // Scroll to the top of the page when the component loads
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <Row className='home'>
       <Col sm={3}>
