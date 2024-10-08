@@ -197,13 +197,14 @@ small{
 }
 
 .abt img{
-  width: 40%;
-  height: 350px;
+  width: 45%;
+  height: 70vh;
   padding: 5%;
+  filter: grayscale(100%);
 }
 
 .abt-txt{
-  width: 45%;
+  width: 50%;
   padding: 5%;
 }
 
@@ -318,4 +319,35 @@ small{
 
 .info-body{
   flex-direction: column;
+}
+
+.iteminfo-body h2{
+  padding-bottom: 2%;
+  color: #000;
+}
+
+.iteminfo-body h4{
+  padding-bottom: 2%;
+}
+
+.dietplan-body h4{
+  color: green;
+  margin-left: 8%;
+}
+
+.dietcard-body ul{
+  padding-inline: 12%;
+}
+
+.dietcard-body span{
+  color: black;
+  font-weight: bold;
+}
+
+.dietcard-body h5{
+  margin-bottom: 5%;
+}
+
+.dietplan-div{
+  margin-bottom: 5%;
 }

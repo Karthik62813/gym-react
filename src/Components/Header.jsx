@@ -26,6 +26,7 @@ import LogoutIcon from '@mui/icons-material/Logout';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 // import Home from './Home';
 import { LuSearch } from "react-icons/lu";
+import RestaurantIcon from '@mui/icons-material/Restaurant';
 
 export default function ColorInversionNavigation() {
   const [color] = React.useState('neutral');
@@ -86,13 +87,14 @@ export default function ColorInversionNavigation() {
             </ListItemDecorator>
             Contact
           </ListItemButton></Link>
-          
-          <ListItemButton>
+
+          <Link to='/dietplan' className="navbtn"><ListItemButton>
             <ListItemDecorator>
-              <PersonIcon />
+              <RestaurantIcon />
             </ListItemDecorator>
-            Team
-          </ListItemButton>
+            Diet Plans
+          </ListItemButton></Link>
+          
           <ListItem nested>
             <ListSubheader>Shortcuts</ListSubheader>
             <List>

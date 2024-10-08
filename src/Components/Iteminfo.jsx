@@ -36,22 +36,26 @@ function Iteminfo() {
         <ColorInversionNavigation />
       </Col>
       <Col sm={9}>
-        <Link to='/toAccessories'><ArrowBackIcon className='previous' style={{margin: '2% 0 0 11%'}}/></Link>
+        <div style={{ display: "flex", margin: '2% 0 0 11%'}}>
+          <Link to='/toAccessories'><ArrowBackIcon className='previous'/></Link>
+          <h4 style={{ marginLeft: "4%", color: "whitesmoke"}}>Product Details</h4>
+        </div>
         <div className='body info-body'>
           {itemInfo ? (
-            <Card style={{ width: '80%', height: '150vh', border: 'none', margin: '1%' }}>
+            <Card style={{ width: '70%', height: 'auto', border: 'none', margin: '1%' }}>
               <Card.Img
                 style={{ height: '80vh', filter: 'grayscale(100%)' }}
                 variant='top'
                 src={itemInfo.image}
               />
-              <Card.Body>
+              <Card.Body className='iteminfo-body'>
                 <h2>{itemInfo.name}</h2>
                 <b className='star'>
                   <StarsIcon />
                   {itemInfo.rating}
                 </b>
-                <p>{itemInfo.price}</p>
+                <h4 style={{color: "whitesmoke"}}>{itemInfo.price}</h4>
+                <b style={{ color:"black"}}>Description:</b>
                 <p>{itemInfo.description}</p>
               </Card.Body>
             </Card>

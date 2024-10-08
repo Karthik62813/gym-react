@@ -16,6 +16,7 @@ import Sports from './Components/Sports';
 import Products from './Components/Products';
 import Iteminfo from './Components/Iteminfo';
 import Sportinfo from './Components/Sportinfo';
+import Dietplan from './Components/Dietplan';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
           <Route path='/toAccessories' element={<Accessories />}></Route>
           <Route path='/sports' element={<Sports />}></Route>
           <Route path='/toSports' element={<Sports />}></Route>
+          <Route path='/dietplan' element={<Dietplan />}></Route>
           <Route path='/accinfo/:id' element={<Iteminfo />}></Route>
           <Route path='/sportinfo/:id' element={<Sportinfo />}></Route>
         </Routes>

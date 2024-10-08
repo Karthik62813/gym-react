@@ -39,22 +39,23 @@ function Sportinfo() {
         <Link to='/toSports'><ArrowBackIcon className='previous' style={{margin: '2% 0 0 11%'}}/></Link>
         <div className='body info-body'>
           {itemInfo ? (
-            <Card style={{ width: '80%', height: '150vh', border: 'none', margin: '1%' }}>
-              <Card.Img
-                style={{ height: '80vh', filter: 'grayscale(100%)' }}
-                variant='top'
-                src={itemInfo.image}
-              />
-              <Card.Body>
-                <h2>{itemInfo.name}</h2>
-                <b className='star'>
-                  <StarsIcon />
-                  {itemInfo.rating}
-                </b>
-                <p>{itemInfo.price}</p>
-                <p>{itemInfo.description}</p>
-              </Card.Body>
-            </Card>
+            <Card style={{ width: '70%', height: 'auto', border: 'none', margin: '1%' }}>
+            <Card.Img
+              style={{ height: '80vh', filter: 'grayscale(100%)' }}
+              variant='top'
+              src={itemInfo.image}
+            />
+            <Card.Body className='iteminfo-body'>
+              <h2>{itemInfo.name}</h2>
+              <b className='star'>
+                <StarsIcon />
+                {itemInfo.rating}
+              </b>
+              <h4 style={{color: "whitesmoke"}}>{itemInfo.price}</h4>
+              <b style={{ color:"black"}}>Description:</b>
+              <p>{itemInfo.description}</p>
+            </Card.Body>
+          </Card>
           ) : (
             <p>Loading...</p>
           )}

@@ -1,0 +1,148 @@
+export const weightLoss = [{
+    "id": "0",
+    "name": "Keto Diet",
+    "breakfast":"Scrambled eggs cooked in butter with avocado.",
+    "lunch":"Grilled chicken salad with olive oil and leafy greens.",
+    "snacks":"Cheese, nuts, or hard-boiled eggs.",
+    "dinner":"Salmon with sautéed spinach in coconut oil.",
+},
+{
+    "id": "1",
+    "name": "Intermittent Fasting",
+    "breakfast":"skip",
+    "lunch":"Grilled chicken salad with avocado, olive oil dressing, and quinoa.",
+    "snacks":"Almonds and Greek yogurt with berries.",
+    "dinner":"Baked salmon, roasted sweet potatoes, and steamed broccoli.",
+},
+{
+    "id": "2",
+    "name": "Low-Carb Diet",
+    "breakfast":"Scrambled eggs with spinach and avocado.",
+    "lunch":"Grilled chicken Caesar salad (no croutons).",
+    "snacks":"Cheese sticks and a handful of almonds.",
+    "dinner":"Baked salmon with sautéed broccoli and cauliflower rice.",
+},];
+
+export const muscleGain = [{
+    "id": "0",
+    "name": "High-Protein Diet",
+    "breakfast":"Scrambled eggs with spinach and turkey sausage.",
+    "lunch":"Grilled chicken breast, quinoa, and roasted vegetables.",
+    "snacks":"Greek yogurt with chia seeds.",
+    "dinner":"Baked salmon with steamed broccoli and sweet potatoes.",
+},
+{
+    "id": "1",
+    "name": "Bodybuilding Diet",
+    "breakfast":"Scrambled eggs with spinach and whole-grain toast, plus a protein shake.",
+    "lunch":"Grilled chicken breast with quinoa and steamed broccoli.",
+    "snacks":"Greek yogurt with mixed berries and a handful of walnuts.",
+    "dinner":"Lean beef stir-fry with brown rice and assorted vegetables.",
+},
+{
+    "id": "2",
+    "name": "Caloric Surplus Diet",
+    "breakfast":"Oatmeal topped with peanut butter, banana, and a scoop of protein powder.",
+    "lunch":"Grilled chicken breast, brown rice, and steamed broccoli with olive oil.",
+    "snacks":"Greek yogurt with honey and mixed nuts.",
+    "dinner":"Salmon fillet, quinoa, and roasted sweet potatoes with vegetables.",
+},];
+
+export const veganVegetarian = [{
+    "id": "0",
+    "name": "Whole-Food Plant-Based Diet",
+    "breakfast":"Overnight oats with almond milk, chia seeds, banana, and berries.",
+    "lunch":"Quinoa salad with chickpeas, cherry tomatoes, cucumber, and lemon-tahini dressing.",
+    "snacks":"Hummus with carrot and cucumber sticks.",
+    "dinner":"Stir-fried tofu with mixed vegetables (broccoli, bell peppers, carrots) and brown rice.",
+},
+{
+    "id": "1",
+    "name": "Vegetarian Mediterranean Diet",
+    "breakfast":"Greek yogurt topped with honey, walnuts, and fresh berries.",
+    "lunch":"Quinoa salad with chickpeas, cucumber, bell peppers, and a lemon-olive oil dressing.",
+    "snacks":"Hummus with carrot and cucumber sticks.",
+    "dinner":"Grilled vegetable kebabs with a side of tabbouleh and tzatziki.",
+},
+{
+    "id": "2",
+    "name": "Vegan High-Protein Diet",
+    "breakfast":"Tofu scramble with spinach, tomatoes, and nutritional yeast on whole-grain toast.",
+    "lunch":"Quinoa salad with black beans, corn, avocado, and lime dressing.",
+    "snacks":"Chia seed pudding made with almond milk and topped with berries.",
+    "dinner":"Lentil stew with kale and sweet potatoes served with brown rice.",
+},];
+
+export const diabetesManagement = [{
+    "id": "0",
+    "name": "Low-Glycemic Index (GI) Diet",
+    "breakfast":"Oatmeal with berries and a sprinkle of chia seeds.",
+    "lunch":"Grilled chicken with quinoa and mixed greens salad.",
+    "snacks":"Apple slices with almond butter.",
+    "dinner":"Baked salmon with steamed broccoli and brown rice.",
+},
+{
+    "id": "1",
+    "name": "Carbohydrate Counting",
+    "breakfast":"Scrambled eggs with spinach and 1 slice of whole-grain toast (15g carbs).",
+    "lunch":" Grilled chicken wrap with whole-wheat tortilla and mixed veggies (30g carbs).",
+    "snacks":"Carrot sticks with hummus (10g carbs).",
+    "dinner":"Grilled salmon, quinoa (20g carbs), and steamed broccoli.",
+},
+{
+    "id": "2",
+    "name": "Plant-Based Diet",
+    "breakfast":"Tofu scramble with spinach, tomatoes, and nutritional yeast on whole-grain toast.",
+    "lunch":"Quinoa salad with black beans, corn, avocado, and lime dressing.",
+    "snacks":"Chia seed pudding made with almond milk and topped with berries.",
+    "dinner":"Lentil stew with kale and sweet potatoes served with brown rice.",
+},];
+
+export const generalWellness = [{
+    "id": "0",
+    "name": "Balanced Diet",
+    "breakfast":"Scrambled eggs with spinach and 1 slice of whole-grain toast (15g carbs).",
+    "lunch":" Grilled chicken wrap with whole-wheat tortilla and mixed veggies (30g carbs).",
+    "snacks":"Carrot sticks with hummus (10g carbs).",
+    "dinner":"Grilled salmon, quinoa (20g carbs), and steamed broccoli.",
+},
+{
+    "id": "1",
+    "name": "Paleo Diet",
+    "breakfast":"Tofu scramble with spinach, tomatoes, and nutritional yeast on whole-grain toast.",
+    "lunch":"Quinoa salad with black beans, corn, avocado, and lime dressing.",
+    "snacks":"Chia seed pudding made with almond milk and topped with berries.",
+    "dinner":"Lentil stew with kale and sweet potatoes served with brown rice.",
+},
+{
+    "id": "2",
+    "name": "Anti-Inflammatory Diet",
+    "breakfast":"Oatmeal with berries and a sprinkle of chia seeds.",
+    "lunch":"Grilled chicken with quinoa and mixed greens salad.",
+    "snacks":"Apple slices with almond butter.",
+    "dinner":"Baked salmon with steamed broccoli and brown rice.",
+},];
+export const heartHealth = [{
+    "id": "0",
+    "name": "DASH Diet",
+    "breakfast":"Tofu scramble with spinach, tomatoes, and nutritional yeast on whole-grain toast.",
+    "lunch":"Quinoa salad with black beans, corn, avocado, and lime dressing.",
+    "snacks":"Chia seed pudding made with almond milk and topped with berries.",
+    "dinner":"Lentil stew with kale and sweet potatoes served with brown rice.",
+},
+{
+    "id": "1",
+    "name": "Mediterranean Diet",
+    "breakfast":"Scrambled eggs with spinach and 1 slice of whole-grain toast (15g carbs).",
+    "lunch":" Grilled chicken wrap with whole-wheat tortilla and mixed veggies (30g carbs).",
+    "snacks":"Carrot sticks with hummus (10g carbs).",
+    "dinner":"Grilled salmon, quinoa (20g carbs), and steamed broccoli.",
+},
+{
+    "id": "2",
+    "name": "Low-Sodium Diet",
+    "breakfast":"Oatmeal with berries and a sprinkle of chia seeds.",
+    "lunch":"Grilled chicken with quinoa and mixed greens salad.",
+    "snacks":"Apple slices with almond butter.",
+    "dinner":"Baked salmon with steamed broccoli and brown rice.",
+},];
