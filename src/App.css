@@ -214,6 +214,10 @@ small{
   text-align: center;
 }
 
+.products-body{
+  height: 87vh;
+}
+
 .products, .info-body{
   display: flex;
   justify-content: center;

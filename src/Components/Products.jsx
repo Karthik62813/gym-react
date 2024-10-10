@@ -18,7 +18,7 @@ function Products() {
         <ColorInversionNavigation/>
       </Col>
       <Col sm={9}>
-        <div className='body'>
+        <div className='body products-body'>
           <h2 className='heading' style={{ marginTop: "5%"}}>Choose Your Category</h2>
           <div className='products'>
             <Link to='/accessories'><div className='items'>
